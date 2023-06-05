@@ -29,7 +29,8 @@ body{
 }
 
 .card-img-top{
-    height: 25vh;
+    height: 30vh;
+    overflow: hidden;
 }
 .card-hover{
     transition: 0.3s;
@@ -169,15 +170,48 @@ footer{
 }
 
 
-#second-img-auriculares{
-    height: 13rem;
-}
 
-@media (min-width: 992px){
-    .card-height-auriculares{
+@media (min-width:768px) and (max-width: 1440px){
+    .card-height-auriculares img{
         height: 20vw;
+        width: 20vw;
+        align-items: center;
+    } 
+    
+    .card-body-auriculares h1{
+        font-size: 20px;
+    }
+    
+    .card-body-auriculares p{
+        font-size: 10px;
+    }
+    
+    .btn-size-auriculares{
+        height: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-grid-lg{
+        display: grid;
+        grid-template-areas:
+         "teclado1 teclado2"
+        "teclado3 teclado4";
+    }
+
+    .container-grid-lg-auris{
+        display: grid;
+        grid-template-areas:
+         "auriculares1 auriculares2"
+        "auriculares3 auriculares4";
+    }
+
+    .card-height-auriculares{
+        height: 100%;
+        width: 100%;
     } 
 }
+
 
 @media (max-width: 768px){
     .card-hover:hover{
@@ -188,9 +222,23 @@ footer{
         transition: none;
     }
 
-    .card-height-auriculares{
-        height: 80vw;
+    .card-height-auriculares img{
+        height: 30vw;
     } 
+
+    .card-body-auriculares h1{
+        font-size: 20px;
+    }
+    
+    .card-body-auriculares p{
+        font-size: 10px;
+    }
+    
+    .btn-size-auriculares{
+        height: 2rem;
+        display: flex;
+        align-items: center;
+    }
 }
 
 .flex-form{
@@ -259,4 +307,37 @@ footer{
    margin: auto;
    width: 100%;
    height: 100%;
+}
+
+
+.grid-lg-1{
+    grid-area: teclado1;
+}
+
+.grid-lg-2{
+    grid-area: teclado2;
+}
+
+.grid-lg-3{
+    grid-area: teclado3;
+}
+
+.grid-lg-4{
+    grid-area: teclado4;
+}
+
+.grid-lg-5{
+    grid-area: auriculares1
+}
+
+.grid-lg-6{
+    grid-area: auriculares2
+}
+
+.grid-lg-7{
+    grid-area: auriculares3
+}
+
+.grid-lg-8{
+    grid-area: auriculares4
 }
