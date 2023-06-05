@@ -9,11 +9,14 @@
 
 html{
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 
 body{
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 #nav-img{
@@ -136,10 +139,13 @@ footer{
 
 }
 
-.bg-auriculares{
-    background-color: #596275;
+.bg-grey{
+    background-color: #808e9b;
 }
 
+.bg-red{
+    background-color: #e55039;
+}
 
 
 .card-body-auriculares{
@@ -181,6 +187,69 @@ footer{
     .card-hover{
         transition: none;
     }
+
+    .card-height-auriculares{
+        height: 80vw;
+    } 
 }
 
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+    background-color: #808e9b;
+    padding: 6rem;
+}
+
+.check-btn-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.label-w{
+    width: 80%;  
+}
+
+.hover-form{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e55039;
+    transition: 0.4s;
+    box-shadow: inset;
+}
+
+.hover-form:hover{
+    transform: scale(1.20);
+}
+
+@media (max-width: 768px){
+
+    .flex-form
+                {width: 100%;
+                height: 100%;   
+        }
+    
+    .hover-form{
+        width: 100%;
+        height: 100%;
+        transition: none;
+    }
+
+    .hover-form:hover{
+        transform: none;
+    }
+
+    .footer-contacto{
+        margin-top: auto;
+    }
+    
+
+}
 
