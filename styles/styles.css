@@ -4,27 +4,16 @@
     padding: 0;
     font-family: 'Kanit', sans-serif;
     background-color: transparent;
+    
+}
+
+html{
     scroll-behavior: smooth;
 }
 
 
 body{
     min-height: 100vh;
-}
-
-.flex-products{
-    display: flex;
-    justify-content: space-around;
-    height: 250px;
-    padding-top: 50px;
-}
-
-.flex-paragraphs{
-    display: flex;
-}
-
-.flex-paragraphs p{
-    font-size: 30px;
 }
 
 #nav-img{
@@ -92,18 +81,18 @@ footer{
 
 
 @media (max-width: 567px){
-    .card:not(:first-child){
+    .card-margin-products:not(:first-child){
         display: none;
     }
     .carousel-control-prev, .carousel-control-next{
         width: 3vh;
         height: 3vh;   
     }
-   .card-title{
+   .card-title-products{
     display: none;
    } 
    
-   .card-text{
+   .card-text-products{
     display: none;
    }
 
@@ -112,7 +101,7 @@ footer{
     width: 40vw;
     }
 
-    .card-body{
+    .card-body-products{
         display: flex;
         justify-content: center;
     }
@@ -120,18 +109,18 @@ footer{
 }
 
 @media (max-width: 768px){
-    .card:not(:first-child){
+    .card-margin-products:not(:first-child){
         display: none;
     }
     .carousel-control-prev, .carousel-control-next{
         width: 3vh;
         height: 3vh;   
     }
-   .card-title{
+   .card-title-products{
     display: none;
    } 
    
-   .card-text{
+   .card-text-products{
     display: none;
    }
 
@@ -140,9 +129,58 @@ footer{
     width: 40vw;
     }
 
-    .card-body{
+    .card-body-products{
         display: flex;
         justify-content: center;
     }
 
 }
+
+.bg-auriculares{
+    background-color: #596275;
+}
+
+
+
+.card-body-auriculares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body-auriculares h1{
+    font-size: 10px;
+}
+
+.card-body-auriculares p{
+    font-size: 10px;
+}
+
+.btn-size-auriculares{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+#second-img-auriculares{
+    height: 13rem;
+}
+
+@media (min-width: 992px){
+    .card-height-auriculares{
+        height: 20vw;
+    } 
+}
+
+@media (max-width: 768px){
+    .card-hover:hover{
+        transform: none;
+    }
+
+    .card-hover{
+        transition: none;
+    }
+}
+
+
