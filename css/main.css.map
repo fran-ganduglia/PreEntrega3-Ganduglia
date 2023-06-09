@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/base/_base.scss","../scss/base/_reset.scss","../scss/components/_nav.scss","../scss/components/_carousel.scss","../scss/utilities/_var.scss"],"names":[],"mappings":"AAAA;EACI;;;ACDJ;EACI;EACA;EACA;EACA;;;ACJJ;EACI;;;AAKI;EACI;EACA;;;ACRZ;EACI,kBCGqB;EDFrB;EACA;EACA;EACA;EACA;;;AAIA;EACI;EACA","file":"main.css"}

@@ -1,0 +1,16 @@
+.carousel-control-prev, .carousel-control-next{
+    background-color: $carousel-control-color;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    span{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+   
+}
