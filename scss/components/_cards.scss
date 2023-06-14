@@ -1,12 +1,10 @@
 // General
 .card-hover{
     transition: 0.3s;
+        &:hover  {
+            transform: scale(1.15);
+        }
 }
-
-.card-hover:hover  {
-    transform: scale(1.15);
-}
-
 
 // Card Products
 .card-products{
@@ -14,24 +12,19 @@
  }
 
 .card-margin-products{
-    margin: 0 .5em;
+    margin: 0.5em;
 }
+
 .card-body-auriculares{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.card-body-auriculares{ 
     h1{
-    font-size: 10px;
-}
-}
-
-.card-body-auriculares{
-     p{
-    font-size: 10px;
-}
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
 }
 
 .btn-size-auriculares{
@@ -40,23 +33,30 @@
     align-items: center;
 }
 
+.bg-grey{
+    background-color: $pricipal-color;
+}
+
+.bg-red{
+    background-color: $secondary-color;
+}
 
 // Card Img
 .card-img-top{
     height: 30vh;
     overflow: hidden;
-}
-.img-card{
-    img {
-        height: 15vw;
-        width: 20vw;
-    }
+    object-fit: contain;
 }
 .img-card{
     display: flex; 
     align-items: center;
     justify-content: center;
+    img {
+        height: 15vw;
+        width: 20vw;
+    }
 }
+
 
 
 

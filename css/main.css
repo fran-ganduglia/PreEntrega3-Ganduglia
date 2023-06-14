@@ -26,7 +26,6 @@ html {
   top: 50%;
   transform: translateY(-50%);
 }
-
 .carousel-control-prev span, .carousel-control-next span {
   width: 1.5rem;
   height: 1.5rem;
@@ -35,7 +34,6 @@ html {
 .card-hover {
   transition: 0.3s;
 }
-
 .card-hover:hover {
   transform: scale(1.15);
 }
@@ -45,7 +43,7 @@ html {
 }
 
 .card-margin-products {
-  margin: 0 0.5em;
+  margin: 0.5em;
 }
 
 .card-body-auriculares {
@@ -53,11 +51,9 @@ html {
   flex-direction: column;
   align-items: center;
 }
-
 .card-body-auriculares h1 {
   font-size: 10px;
 }
-
 .card-body-auriculares p {
   font-size: 10px;
 }
@@ -68,20 +64,28 @@ html {
   align-items: center;
 }
 
+.bg-grey {
+  background-color: #dee2e6;
+}
+
+.bg-red {
+  background-color: #6c757d;
+}
+
 .card-img-top {
   height: 30vh;
   overflow: hidden;
-}
-
-.img-card img {
-  height: 15vw;
-  width: 20vw;
+  object-fit: contain;
 }
 
 .img-card {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.img-card img {
+  height: 15vw;
+  width: 20vw;
 }
 
 .flex-form {
@@ -90,7 +94,7 @@ html {
   justify-content: center;
   align-items: center;
   margin: 10% 0;
-  background-color: #808e9b;
+  background-color: #bcb8b1;
   padding: 6rem;
 }
 
@@ -115,7 +119,6 @@ html {
   transition: 0.4s;
   box-shadow: inset;
 }
-
 .hover-form:hover {
   transform: scale(1.2);
 }
@@ -134,29 +137,6 @@ html {
 }
 
 @media (max-width: 567px) {
-  .card-margin-products:not(:first-child) {
-    display: none;
-  }
-  .carousel-control-prev, .carousel-control-next {
-    width: 3vh;
-    height: 3vh;
-  }
-  .card-title-products {
-    display: none;
-  }
-  .card-text-products {
-    display: none;
-  }
-  .img-card img {
-    height: 40vw;
-    width: 40vw;
-  }
-  .card-body-products {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media (max-width: 768px) {
   .card-margin-products:not(:first-child) {
     display: none;
   }
@@ -210,11 +190,32 @@ html {
   }
 }
 @media (max-width: 768px) {
-  .card-hover:hover {
-    transform: none;
+  .card-margin-products:not(:first-child) {
+    display: none;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 3vh;
+    height: 3vh;
+  }
+  .card-title-products {
+    display: none;
+  }
+  .card-text-products {
+    display: none;
+  }
+  .img-card img {
+    height: 40vw;
+    width: 40vw;
+  }
+  .card-body-products {
+    display: flex;
+    justify-content: center;
   }
   .card-hover {
     transition: none;
+  }
+  .card-hover:hover {
+    transform: none;
   }
   .card-height-auriculares img {
     height: 30vw;
@@ -230,8 +231,6 @@ html {
     display: flex;
     align-items: center;
   }
-}
-@media (max-width: 768px) {
   .flex-form {
     width: 100%;
     height: 100%;
@@ -243,9 +242,6 @@ html {
   }
   .hover-form:hover {
     transform: none;
-  }
-  .footer-contacto {
-    margin-top: auto;
   }
 }
 @media (max-width: 425px) {
