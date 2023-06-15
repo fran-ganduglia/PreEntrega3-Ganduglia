@@ -72,6 +72,36 @@ html {
   background-color: #6c757d;
 }
 
+.card-aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-body a {
+  font-size: 16px;
+}
+
+.btn-home-card {
+  height: 4em;
+  width: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-flex-end {
+  display: flex;
+  align-self: start;
+}
+
 .card-img-top {
   height: 30vh;
   overflow: hidden;
@@ -90,9 +120,9 @@ html {
 
 .flex-form {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 10% 0;
   background-color: #bcb8b1;
   padding: 6rem;
@@ -109,12 +139,12 @@ html {
 }
 
 .hover-form {
-  width: 100%;
-  height: 20vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 20vw;
+  flex-direction: column;
   background-color: #e55039;
   transition: 0.4s;
   box-shadow: inset;

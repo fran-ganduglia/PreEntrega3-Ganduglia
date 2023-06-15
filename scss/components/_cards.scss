@@ -41,6 +41,31 @@
     background-color: $secondary-color;
 }
 
+.card-aside{
+    @include flex-center;
+    flex-direction: column;
+}
+
+.card-body{
+    @include flex-center;
+    flex-direction: column;
+    a{
+        font-size: 16px;
+    }
+} 
+
+.btn-home-card{
+    height: 4em;
+    width: 15em;
+    @include flex-center;
+}
+
+.card-flex-end{
+    display: flex;
+    align-self: start;
+}
+
+
 // Card Img
 .card-img-top{
     height: 30vh;
@@ -48,9 +73,7 @@
     object-fit: contain;
 }
 .img-card{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
     img {
         height: 15vw;
         width: 20vw;
