@@ -16,38 +16,32 @@
    .card-text-products{
     display: none;
    }
-   .card-product-height{
-    height: 10em;
-    width: 10em;
-   }
-
-   .card-height-auriculares{ 
-    img{
-        object-fit: contain;
-    }
-}
    
-
-    .container-grid-lg{
-        display: grid;
-        grid-template-areas:
-         "teclado1 teclado2"
-        "teclado3 teclado4";
-    }
-
-    .container-grid-lg-auris{
-        display: grid;
-        grid-template-areas:
-         "auriculares1 auriculares2"
-        "auriculares3 auriculares4";
-    }
-
+   .card-product-height{ 
+    height: 70%;
+    width: 100%;
+}
     //Cards of Products
+   .card-img-top{
+        overflow: hidden;
+        height: 100%;
+   }
+    .title-size{
+        display: none;
+    }
 
-    .card-body-products{
-        display: flex;
-        justify-content: center;
-        
+    .card-body-auriculares{
+        height: 10%;
+        h2{
+            display: none;
+        }
+        a{
+            font-size: 5px;
+            overflow: hidden;
+        }
+    }
+    .btn-size-auriculares{
+        width: 50px;
     }
 
 }
@@ -177,14 +171,6 @@
     }
 }
 
-@media (max-width: 425px){
-   
-    .carousel-item{ 
-        img{
-        height: 60vw;
-    }
-}
-}
 
 
 .grid-lg-1{

@@ -99,6 +99,10 @@ html {
   font-weight: lighter;
 }
 
+.title-size {
+  font-size: 23px;
+}
+
 .card-color-1 {
   background-color: #184e77;
 }
@@ -208,23 +212,28 @@ html {
     display: none;
   }
   .card-product-height {
-    height: 10em;
-    width: 10em;
+    height: 70%;
+    width: 100%;
   }
-  .card-height-auriculares img {
-    object-fit: contain;
+  .card-img-top {
+    overflow: hidden;
+    height: 100%;
   }
-  .container-grid-lg {
-    display: grid;
-    grid-template-areas: "teclado1 teclado2" "teclado3 teclado4";
+  .title-size {
+    display: none;
   }
-  .container-grid-lg-auris {
-    display: grid;
-    grid-template-areas: "auriculares1 auriculares2" "auriculares3 auriculares4";
+  .card-body-auriculares {
+    height: 10%;
   }
-  .card-body-products {
-    display: flex;
-    justify-content: center;
+  .card-body-auriculares h2 {
+    display: none;
+  }
+  .card-body-auriculares a {
+    font-size: 5px;
+    overflow: hidden;
+  }
+  .btn-size-auriculares {
+    width: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -310,11 +319,6 @@ html {
   }
   .hover-form:hover {
     transform: none;
-  }
-}
-@media (max-width: 425px) {
-  .carousel-item img {
-    height: 60vw;
   }
 }
 .grid-lg-1 {
