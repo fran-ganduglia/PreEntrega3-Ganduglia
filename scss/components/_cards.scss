@@ -1,10 +1,10 @@
 // General
-.card-hover{
+.card-hover { 
     transition: 0.3s;
         &:hover  {
             transform: scale(1.15);
         }
-}
+} 
 
 // Card Products
 .card-products{
@@ -13,6 +13,11 @@
 
 .card-margin-products{
     margin: 0.5em;
+}
+
+.card-product-height{
+    height: 25em;
+    width: 25em;
 }
 
 .card-body-auriculares{
@@ -44,13 +49,43 @@
 .card-aside{
     @include flex-center;
     flex-direction: column;
+        h1{
+            font-size: $card-aside;
+            text-align: start;
+        }
+        h2{
+            font-size: $card-aside;
+            text-align: end;
+        }
+        h3{
+            font-size: $card-aside;
+            text-align: start;
+        }
+        p{
+            font-size: 2em;
+            font-weight: lighter;
+        }  
 }
+
+.card-color-1{
+    background-color: $first-card-home
+}
+
+.card-color-2{
+    background-color: $second-card-home;
+}
+
+.card-color-3{
+    background-color: $third-card-home;
+}
+
+
 
 .card-body{
     @include flex-center;
     flex-direction: column;
     a{
-        font-size: 16px;
+        font-size: 1em;
     }
 } 
 
@@ -59,12 +94,6 @@
     width: 15em;
     @include flex-center;
 }
-
-.card-flex-end{
-    display: flex;
-    align-self: start;
-}
-
 
 // Card Img
 .card-img-top{
@@ -79,7 +108,6 @@
         width: 20vw;
     }
 }
-
 
 
 
