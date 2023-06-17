@@ -36,14 +36,68 @@
             display: none;
         }
         a{
-            font-size: 5px;
+           font-size: 10px;
+            text-align: center;
             overflow: hidden;
+            justify-content: center;
         }
     }
     .btn-size-auriculares{
         width: 50px;
     }
 
+    //Index Cards
+    .btn-home-card{
+        height: 3em;
+        width: 10em;
+        @include flex-center;
+    }
+
+    .card-img-home{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        align-self: center;
+    }
+
+    .card-aside{
+        @include flex-center;
+        flex-direction: column;
+            h1{
+                font-size: $card-aside-mobile;
+                text-align: center;
+            }
+            h2{
+                font-size: $card-aside-mobile;
+                text-align: center;
+            }
+            h3{
+                font-size: $card-aside-mobile;
+                text-align: center;
+            }
+            p{
+                font-size: 1em;
+                font-weight: lighter;
+                text-align: center;
+            }  
+    }
+
+    .card-width{
+        width: 100%;
+    }
+
+    .card-position{
+        position: relative;
+        top: 130px;
+    }
+    .text-home-relative{
+        position: relative;
+        bottom: 320px;
+    }
+
+    .carousel-item img{
+        height: 320px;
+    }
 }
 
 @media (max-width: 991px){
@@ -88,6 +142,58 @@
         height: 100%;
         width: 100%;
     } 
+
+    .btn-home-card{
+        height: 3em;
+        width: 10em;
+        @include flex-center;
+    }
+
+    .card-img-home{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        align-self: center;
+    }
+
+    .card-aside{
+        @include flex-center;
+        flex-direction: column;
+            h1{
+                font-size: $card-aside-mobile;
+                text-align: center;
+            }
+            h2{
+                font-size: $card-aside-mobile;
+                text-align: center;
+            }
+            h3{
+                font-size: $card-aside-mobile;
+                text-align: center;
+            }
+            p{
+                font-size: 1em;
+                font-weight: lighter;
+                text-align: center;
+            }  
+    }
+
+    .card-width{
+        width: 100%;
+    }
+
+    .card-position{
+        position: relative;
+        top: 100px;
+    }
+    .text-home-relative{
+        position: relative;
+        bottom: 530px;
+    }
+
+    .carousel-item img{
+        height: 320px;
+    }
 }
 
 @media (max-width: 768px){

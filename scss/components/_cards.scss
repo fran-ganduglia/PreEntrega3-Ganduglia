@@ -71,20 +71,13 @@
     font-size: $card-title;
 }
 
-.card-color-1{
-    background-color: $first-card-home
+.card-color{
+    background-color: $card-home
 }
 
-.card-color-2{
-    background-color: $second-card-home;
+.card-width{
+    width: 35%
 }
-
-.card-color-3{
-    background-color: $third-card-home;
-}
-
-
-
 .card-body{
     @include flex-center;
     flex-direction: column;
@@ -97,9 +90,24 @@
     height: 4em;
     width: 15em;
     @include flex-center;
+    background: $btn-home;
+    color: $text-color;
+    border-color: $text-color;
+}
+
+.text-home-relative{
+    position: relative;
+    margin-bottom: 10px;
 }
 
 // Card Img
+
+.card-img-home{
+    height: 30vh;
+    width: 80%;
+    overflow: hidden;
+    align-self: center;
+}
 .card-img-top{
     height: 30vh;
     overflow: hidden;

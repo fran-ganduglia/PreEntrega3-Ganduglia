@@ -103,16 +103,12 @@ html {
   font-size: 23px;
 }
 
-.card-color-1 {
-  background-color: #184e77;
+.card-color {
+  background-color: #252323;
 }
 
-.card-color-2 {
-  background-color: #1e6091;
-}
-
-.card-color-3 {
-  background-color: #168aad;
+.card-width {
+  width: 35%;
 }
 
 .card-body {
@@ -131,6 +127,21 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(180deg, rgb(37, 35, 35) 0%, rgb(37, 35, 35) 82%, rgb(3, 139, 167) 100%);
+  color: #f5f6fa;
+  border-color: #f5f6fa;
+}
+
+.text-home-relative {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.card-img-home {
+  height: 30vh;
+  width: 80%;
+  overflow: hidden;
+  align-self: center;
 }
 
 .card-img-top {
@@ -229,11 +240,63 @@ html {
     display: none;
   }
   .card-body-auriculares a {
-    font-size: 5px;
+    font-size: 10px;
+    text-align: center;
     overflow: hidden;
+    justify-content: center;
   }
   .btn-size-auriculares {
     width: 50px;
+  }
+  .btn-home-card {
+    height: 3em;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-img-home {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    align-self: center;
+  }
+  .card-aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-aside h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .card-aside h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .card-aside h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .card-aside p {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .card-width {
+    width: 100%;
+  }
+  .card-position {
+    position: relative;
+    top: 130px;
+  }
+  .text-home-relative {
+    position: relative;
+    bottom: 320px;
+  }
+  .carousel-item img {
+    height: 320px;
   }
 }
 @media (max-width: 991px) {
@@ -264,6 +327,56 @@ html {
   .card-height-auriculares {
     height: 100%;
     width: 100%;
+  }
+  .btn-home-card {
+    height: 3em;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-img-home {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    align-self: center;
+  }
+  .card-aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-aside h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .card-aside h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .card-aside h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .card-aside p {
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .card-width {
+    width: 100%;
+  }
+  .card-position {
+    position: relative;
+    top: 100px;
+  }
+  .text-home-relative {
+    position: relative;
+    bottom: 530px;
+  }
+  .carousel-item img {
+    height: 320px;
   }
 }
 @media (max-width: 768px) {
