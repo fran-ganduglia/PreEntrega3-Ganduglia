@@ -88,11 +88,11 @@
 
     .card-position{
         position: relative;
-        top: 130px;
+        top: 170px;
     }
     .text-home-relative{
         position: relative;
-        bottom: 320px;
+        bottom: 300px;
     }
 
     .carousel-item img{
@@ -100,7 +100,7 @@
     }
 }
 
-@media (max-width: 991px){
+@media (min-width: 568px) and (max-width: 991px){
     .card-height-auriculares{ 
             img{
                 height: 20vw;
@@ -188,7 +188,7 @@
     }
     .text-home-relative{
         position: relative;
-        bottom: 530px;
+        bottom: 520px;
     }
 
     .carousel-item img{

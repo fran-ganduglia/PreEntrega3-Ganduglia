@@ -90,8 +90,7 @@
     height: 4em;
     width: 15em;
     @include flex-center;
-    background: $btn-home;
-    color: $text-color;
+    @include btn;
     border-color: $text-color;
 }
 
