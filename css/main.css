@@ -174,8 +174,8 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 10% 0;
-  background-color: #bcb8b1;
+  margin-top: 2%;
+  margin-bottom: 2%;
   padding: 6rem;
 }
 
@@ -189,28 +189,48 @@ html {
   width: 80%;
 }
 
+.bg-body {
+  background: linear-gradient(180deg, rgb(37, 35, 35) 0%, rgb(37, 35, 35) 60%, rgb(3, 139, 167) 100%);
+  background-size: cover;
+}
+
 .hover-form {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 20vw;
+  height: 22vw;
   flex-direction: column;
-  background-color: #252323;
+  background-color: #262424;
   color: #f5f6fa;
   transition: 0.4s;
   box-shadow: inset;
 }
 .hover-form:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.bg-nav-form {
+  background-color: #262424;
+}
+
+main h1 {
+  color: #f5f6fa;
+}
+main p {
+  color: #f5f6fa;
 }
 
 .iframe-flex {
   display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 100%;
-  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7%;
+  background-color: white;
+}
+
+.iframe-title {
+  color: #f5f6fa;
 }
 
 .footer-text h5 {
@@ -220,6 +240,10 @@ html {
 
 .bg-footer {
   background-color: #252323;
+}
+
+.bg-footer-form {
+  background-color: #038ba7;
 }
 
 @media (max-width: 567px) {
@@ -261,6 +285,14 @@ html {
   }
   .btn-size-auriculares {
     width: 50px;
+  }
+  .container-grid-lg {
+    display: grid;
+    grid-template-areas: "teclado1 teclado2" "teclado3 teclado4";
+  }
+  .container-grid-lg-auris {
+    display: grid;
+    grid-template-areas: "auriculares1 auriculares2" "auriculares3 auriculares4";
   }
   .btn-home-card {
     height: 3em;
@@ -310,10 +342,18 @@ html {
     bottom: 300px;
   }
   .carousel-item img {
-    height: 320px;
+    height: 300px;
+  }
+  .hover-form {
+    width: 20em;
+    height: 100%;
+    transition: none;
+  }
+  .hover-form:hover {
+    transform: none;
   }
 }
-@media (min-width: 568px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   .card-height-auriculares img {
     height: 20vw;
     width: 20vw;
@@ -392,8 +432,16 @@ html {
   .carousel-item img {
     height: 320px;
   }
+  .hover-form {
+    width: 20em;
+    height: 100%;
+    transition: none;
+  }
+  .hover-form:hover {
+    transform: none;
+  }
 }
-@media (max-width: 768px) {
+@media (min-width: 568px) and (max-width: 769px) {
   .card-margin-products:not(:first-child) {
     display: none;
   }
@@ -435,12 +483,16 @@ html {
     display: flex;
     align-items: center;
   }
-  .flex-form {
-    width: 100%;
-    height: 100%;
+  .container-grid-lg {
+    display: grid;
+    grid-template-areas: "teclado1 teclado2" "teclado3 teclado4";
+  }
+  .container-grid-lg-auris {
+    display: grid;
+    grid-template-areas: "auriculares1 auriculares2" "auriculares3 auriculares4";
   }
   .hover-form {
-    width: 100%;
+    width: 70em;
     height: 100%;
     transition: none;
   }

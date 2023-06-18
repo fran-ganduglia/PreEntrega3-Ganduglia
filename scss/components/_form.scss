@@ -1,8 +1,8 @@
 .flex-form{
     @include flex-center;
     flex-direction: column;
-    margin: 10% 0;
-    background-color: #bcb8b1;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 6rem;
 }
 
@@ -16,19 +16,36 @@
     width: 80%;  
 }
 
-
+.bg-body{
+    background: $bg-form;
+    background-size: cover;
+}
 
 .hover-form{
     @include flex-center;
     width: 100%;
-    height: 20vw;
+    height: 22vw;
     flex-direction: column;
-    background-color: $card-home;
+    background-color: #262424;
     color: $text-color;
     transition: 0.4s;
     box-shadow: inset;
     &:hover{
-        transform: scale(1.20);
+        transform: scale(1.1);
+    }
+}
+
+.bg-nav-form{
+    background-color: #262424;
+
+}
+
+main{
+    h1{
+        color: $text-color;
+    }
+    p{
+        color: $text-color;
     }
 }
 

@@ -1,7 +1,11 @@
 .iframe-flex{
     display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+    background-color: white ;
+ }
+
+ .iframe-title{
+    color: $text-color;
  }
