@@ -349,6 +349,14 @@ iframe {
   .carousel-item .img-carousel {
     height: 250px;
   }
+  .hover-form {
+    width: 20em;
+    height: 100%;
+    transition: none;
+  }
+  .hover-form:hover {
+    transform: none;
+  }
   iframe {
     margin-top: 25px;
     height: 25rem;
