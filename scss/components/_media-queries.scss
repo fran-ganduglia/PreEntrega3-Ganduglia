@@ -14,8 +14,6 @@
     display: none;
    }
 
-   
-
    .img-card{
     height: 25vh;
     .carousel-img-mobile{
@@ -140,6 +138,42 @@
         margin-top: 25px;
         height: 25rem;
         width: 90%;
+    }
+
+    //Quienes Somos 
+    .quienes-somos-flex{
+        .img-quienes-somos{
+            opacity: 0.30;
+            height: 30vh;
+            overflow: hidden;
+        }
+        .margin-text-quienes-somos-1{
+            flex-wrap: wrap;
+             margin-top: 30px;
+        }
+        .margin-text-quienes-somos-2{
+            flex-wrap: wrap;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .text-quienes-somos-2{
+            color: $text-color;
+            margin-left: 0;
+            font-size: 15px;
+            text-align: center;
+        }
+        .text-quienes-somos-1{
+            color: $text-color;
+            margin-right: 0;
+            font-size: 15px;
+            text-align: center;
+        }
+        .img-body-quienes-somos{
+            align-self: center;
+            overflow: hidden;
+            width: 75%;
+            
+        }
     }
 }
 
@@ -339,6 +373,37 @@
         margin-top: 25px;
         height: 25rem;
         width: 70%;
+    }
+    //Quienes Somos 
+    .quienes-somos-flex{
+        .img-quienes-somos{
+            opacity: 0.30;
+            height: 30vh;
+            overflow: hidden;
+        }
+        .margin-text-quienes-somos-1{
+             margin-top: 30px;
+        }
+        .margin-text-quienes-somos-2{
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .text-quienes-somos-2{
+            color: $text-color;
+            margin-left: 8%;
+            font-size: 1rem;
+            text-align: end;
+        }
+        .text-quienes-somos-1{
+            color: $text-color;
+            margin-right: 8%;
+            font-size: 1rem;
+            text-align: start;
+        }
+        .img-body-quienes-somos{
+            overflow: hidden;
+            width: 100%;
+        }
     }
 }
 
