@@ -14,8 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Productos</title>
 </head>
-<body>
-    <nav  class="navbar navbar-expand-lg navbar-dark bg-nav nav-underline p-3 sticky-top">
+<body class="bg-body">
+    <nav  class="navbar navbar-expand-lg navbar-dark bg-nav-form nav-underline p-3 sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"><img id="nav-img" class="rounded-circle" src="../images/favicon.png" alt="favicon">
           </a>
@@ -38,6 +38,9 @@
               <li>
                 <a class="nav-link" href="donde-encontrarnos.html">Donde encontrarnos</a>
               </li>
+              <li>
+                <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -57,18 +60,18 @@
               <div class="img-card">
                   <img src="../images/auriculares 1.png" class="card-img-top carousel-img-mobile" alt="auriculares">
               </div>
-              <div class="card-body card-body-products ">
+              <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">Modelo G-435</h5>              
-                <a href="#auriculares" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#auriculares" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
             <div class="card card-margin-products w-100">
               <div class="img-card">
-                <img src="../images/auriculares 3.png " class="card-img-top carousel-img-mobile" alt="auriculares">
+                <img src="../images/auriculares 3.png" class="card-img-top carousel-img-mobile" alt="auriculares">
               </div>
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">Modelo G-335 Pro</h5>               
-                <a href="#auriculares" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#auriculares" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
             <div class="card card-margin-products w-100">
@@ -78,7 +81,7 @@
                
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">Modelo G-332</h5>             
-                <a href="#auriculares" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#auriculares" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
           </div>
@@ -93,7 +96,7 @@
               
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">Modelo G-733</h5>               
-                <a href="#auriculares" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#auriculares" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
             <div class="card card-margin-products w-100">
@@ -102,7 +105,7 @@
             </div>
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">Signature K-650</h5>               
-                <a href="#teclados" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#teclados" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
             <div class="card card-margin-products w-100">
@@ -111,7 +114,7 @@
             </div>
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">MX Mechanical</h5>
-                <a href="#teclados" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#teclados" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
           </div>
@@ -124,7 +127,7 @@
             </div>
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">K-600</h5>
-                <a href="#teclados" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#teclados" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
             <div class="card card-margin-products w-100">
@@ -133,7 +136,7 @@
             </div>
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">Teclado K-835</h5>
-                <a href="#teclados" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#teclados" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
             <div class="card card-margin-products w-100">
@@ -142,7 +145,7 @@
             </div>
               <div class="card-body card-body-products">
                 <h5 class="card-title card-title-products">ERGO K-860</h5>
-                <a href="#teclados" class="btn btn-dark m-auto">Ver más</a>
+                <a href="#teclados" class="btn btn-dark m-auto btn-style">Ver más</a>
               </div>
             </div>
           </div>
@@ -158,7 +161,7 @@
       </button>
     </main>
 
-    <h2 id="auriculares">Auriculares</h2>
+    <h2 class="mt-5 ms-5 text-center title-products">Auriculares</h2>
 
     <article class="container-fluid pt-5 mt-5 pb-5"> 
       <div class="row m-auto gap-4 container-grid-lg-auris">
@@ -167,7 +170,7 @@
           <div class="card-body card-body-auriculares">
               <h2 class="title-size"> Modelo G-435</h2>
               <p class="card-text placeholder-wave fw-bold">49,99$</p>
-              <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+              <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
           </div>
         </div>
   
@@ -176,7 +179,7 @@
         <div class="card-body card-body-auriculares">
             <h2 class="title-size"> Modelo G-733</h2>
             <p class="card-text placeholder-wave fw-bold">67,00$</p>
-            <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+            <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
         </div>
       </div>
   
@@ -185,7 +188,7 @@
       <div class="card-body card-body-auriculares">
           <h2 class="title-size"> Modelo G-335 Pro</h2>
           <p class="card-text placeholder-wave fw-bold">50,00$</p>
-          <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+          <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
       </div>
     </div>
 
@@ -194,13 +197,14 @@
     <div class="card-body card-body-auriculares">
         <h2 class="title-size">Modelo G-332</h2>
         <p class="card-text placeholder-wave fw-bold">25,99$</p>
-        <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+        <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
     </div>
   </div>
   </div>
   </article>
 
-    <h3 id="teclados">Teclados</h3>
+    <h3 class="mt-5 ms-5 text-center title-products">Teclados</h3>
+
   <article class="container-fluid pt-5  mt-5 pb-5"> 
       <div class="row m-auto gap-4  container-grid-lg">
         <div class="card p-3 col-lg-2 col-md-6 col-sm-6 col-xs-6 m-auto card-hover bg-red grid-lg-1 card-product-height">
@@ -208,7 +212,7 @@
           <div class="card-body card-body-auriculares">
               <h2 class="title-size">Signature K-650</h2>
               <p class="card-text placeholder-wave fw-bold">80,00$</p>
-              <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+              <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
           </div>
         </div>
   
@@ -217,7 +221,7 @@
         <div class="card-body card-body-auriculares">
             <h2 class="title-size">MX Mechanical</h2>
             <p class="card-text placeholder-wave fw-bold">85,99$</p>
-            <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+            <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
         </div>
       </div>
   
@@ -226,7 +230,7 @@
       <div class="card-body card-body-auriculares">
           <h2 class="card-title fs-5">ERGO K-860</h2>
           <p class="card-text placeholder-wave fw-bold">99,99$</p>
-          <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+          <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
       </div>
     </div>
 
@@ -235,7 +239,7 @@
     <div class="card-body card-body-auriculares">
         <h2 class="title-size">Teclado K-835</h2>
         <p class="card-text placeholder-wave fw-bold ">82,00$</p>
-        <a href="#" class="btn btn-dark btn-size-auriculares">Comprar</a>
+        <a href="#" class="btn btn-dark btn-size-auriculares btn-style">Comprar</a>
     </div>
 
     

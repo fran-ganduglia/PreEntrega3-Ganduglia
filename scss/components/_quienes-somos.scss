@@ -1,0 +1,35 @@
+
+.quienes-somos-flex{
+    display: flex;
+    flex-direction: column;
+    .img-quienes-somos{
+        opacity: 0.30;
+        height: 50vh;
+        overflow: hidden;
+    }
+    .text-quienes-somos-2{
+        color: $text-color;
+        margin-left: 5%;
+    }
+    .text-quienes-somos-1{
+        color: $text-color;
+        margin-right: 5%;
+    }
+
+    h1{
+        color: $text-color;
+    }
+    .margin-text-quienes-somos-1{
+        margin-top: 200px;
+    }
+    .margin-text-quienes-somos-2{
+        margin-top: 250px;
+        margin-bottom: 150px;
+    }
+    .img-body-quienes-somos{
+        overflow: hidden;
+    }
+}
+
+
+

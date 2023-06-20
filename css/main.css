@@ -85,6 +85,10 @@ html {
   background-color: #6c757d;
 }
 
+.title-products {
+  color: #f5f6fa;
+}
+
 .card-aside {
   display: flex;
   align-items: center;
@@ -94,18 +98,22 @@ html {
 .card-aside h1 {
   font-size: 4em;
   text-align: start;
+  color: #f5f6fa;
 }
 .card-aside h2 {
   font-size: 4em;
   text-align: end;
+  color: #f5f6fa;
 }
 .card-aside h3 {
   font-size: 4em;
   text-align: start;
+  color: #f5f6fa;
 }
 .card-aside p {
   font-size: 2em;
   font-weight: lighter;
+  color: #f5f6fa;
 }
 
 .title-size {
@@ -167,6 +175,37 @@ html {
 .img-card img {
   height: 15vw;
   width: 20vw;
+}
+
+.quienes-somos-flex {
+  display: flex;
+  flex-direction: column;
+}
+.quienes-somos-flex .img-quienes-somos {
+  opacity: 0.3;
+  height: 50vh;
+  overflow: hidden;
+}
+.quienes-somos-flex .text-quienes-somos-2 {
+  color: #f5f6fa;
+  margin-left: 5%;
+}
+.quienes-somos-flex .text-quienes-somos-1 {
+  color: #f5f6fa;
+  margin-right: 5%;
+}
+.quienes-somos-flex h1 {
+  color: #f5f6fa;
+}
+.quienes-somos-flex .margin-text-quienes-somos-1 {
+  margin-top: 200px;
+}
+.quienes-somos-flex .margin-text-quienes-somos-2 {
+  margin-top: 250px;
+  margin-bottom: 150px;
+}
+.quienes-somos-flex .img-body-quienes-somos {
+  overflow: hidden;
 }
 
 .flex-form {

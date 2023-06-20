@@ -46,24 +46,33 @@
     background-color: $secondary-color;
 }
 
+.title-products{
+    color: $text-color
+}
+
+//Index Cards
 .card-aside{
     @include flex-center;
     flex-direction: column;
         h1{
             font-size: $card-aside;
             text-align: start;
+            color: $text-color;
         }
         h2{
             font-size: $card-aside;
             text-align: end;
+            color: $text-color;
         }
         h3{
             font-size: $card-aside;
             text-align: start;
+            color: $text-color;
         }
         p{
             font-size: 2em;
             font-weight: lighter;
+            color: $text-color;
         }  
 }
 
@@ -72,7 +81,7 @@
 }
 
 .card-color{
-    background-color: $card-home
+    background-color: $card-home;
 }
 
 .card-width{
