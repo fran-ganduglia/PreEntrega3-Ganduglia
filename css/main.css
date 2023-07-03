@@ -262,6 +262,7 @@ html {
 .iframe-flex {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   margin-top: 7%;
   margin-bottom: 7%;
@@ -407,6 +408,7 @@ iframe {
     color: #f5f6fa;
     margin-left: 0;
     font-size: 15px;
+    margin-top: 10px;
     text-align: center;
   }
   .quienes-somos-flex .text-quienes-somos-1 {

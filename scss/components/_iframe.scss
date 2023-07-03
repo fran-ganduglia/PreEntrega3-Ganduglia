@@ -1,6 +1,5 @@
 .iframe-flex{
-    display: flex;
-    align-items: center;
+    @include flex-center;
     flex-direction: column;
     margin-top: 7%;
     margin-bottom: 7%;
