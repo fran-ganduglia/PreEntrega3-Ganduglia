@@ -682,6 +682,29 @@ iframe {
   }
 }
 
+.modal-content-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+
+.sumar {
+  cursor: pointer;
+}
+
+.restar {
+  cursor: pointer;
+}
+
+.delete-product {
+  cursor: pointer;
+}
+
+
 
 .grid-lg-1 {
   grid-area: teclado1;

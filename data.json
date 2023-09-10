@@ -1,0 +1,66 @@
+ [
+    { "id": 1,
+        "nombre": "G-435", 
+        "precio": 49.99, 
+        "cant": 1,
+        "img": "../images/auriculares 1.png"
+    },
+
+    { "id": 2,
+         
+    "nombre": "G-733", 
+    "precio": 67, 
+    "cant": 1,
+    "img": "../images/auriculares 2.png"
+    },
+
+    { "id": 3,
+         
+    "nombre": "G-335 Pro",
+    "precio": 50, 
+    "cant": 1,
+    "img": "../images/auriculares 3.png"
+    },
+
+    { "id": 4,
+         
+    "nombre": "G-332", 
+    "precio": 25.99, 
+    "cant": 1,
+    "img": "../images/auriculares 4.png"
+    },
+
+    { "id": 5,
+         
+    "nombre": "Signature K-650", 
+    "precio": 80, 
+    "cant": 1,
+    "img": "../images/teclado 1.png"
+    },
+
+    { "id": 6,
+         
+    "nombre": "MX Mechanical", 
+    "precio": 85.99, 
+    "cant": 1, 
+    "img": "../images/teclado 2.png"
+    },
+
+    { "id": 7,
+         
+    "nombre": "ERGO K-860", 
+    "precio": 100, 
+    "cant": 1,
+    "img": "../images/teclado 3.png"
+    },
+
+    { "id": 8,
+         
+    "nombre": "Teclado K-835", 
+    "precio": 82, 
+    "cant": 1, 
+    "img": "../images/teclado 4.png"
+    }
+]
+
+
