@@ -208,15 +208,26 @@ const pintarCarrito = () => {
         </div>
       </div>
       <button type="submit" class="btn btn-dark btn-style btn-form-mobile" id="realizarCompra">Enviar</button>
+      <button type="submit" class="btn btn-dark btn-style btn-form-mobile" id="terminarCompra">Realizar compra</button>
     </div>
   </form>
     `
     
     modalContainer.append(contCompra)
+
     let realizarCompra = document.getElementById("realizarCompra")
     realizarCompra.addEventListener("click", () => {
       Swal.fire({
         title: 'Se ha registrado exitosamente!',
+        icon: 'success',
+      })
+    })
+
+
+    let terminarCompra = document.getElementById("terminarCompra")
+    terminarCompra.addEventListener("click", () =>{
+      Swal.fire({
+        title: 'Su compra se realizo de manera exitosa!',
         icon: 'success'
       })
     })
